@@ -39,13 +39,13 @@ mechanisms through which OXC affects neuronal function in vivo.
 - Then click on Initialcond -> Go
 - The potential trace is shown in the lower part of Figure 9b in the paper of Huang et al (2008):
 
-![screenshot](./Neuron_OXC.JPG)
+![screenshot](./neuron_OXC.JPG)
 
 ## The model file was supplied by:
 
-Dr. Sheng-Nan Wu
-National Cheng Kung University Medical College
-Tainan 70101, Taiwan
+Dr. Sheng-Nan Wu  
+National Cheng Kung University Medical College  
+Tainan 70101, Taiwan  
 snwu@mail.ncku.edu.tw
 
 ---
