@@ -1,12 +1,10 @@
-<html><pre>
-This is the readme for th model associated with the papers:
+This is the readme for the model associated with the papers:
 
-1. Huang et al., The synergistic inhibitory actions of oxcarbazepine
-   on voltage- gated sodium and potassium currents in differentiated
-   NG108-15 neuronal cells and model neurons. Int J
-   Neuropsychopharmacol 2008;11:597-610.
+# 1. Huang et al., The synergistic inhibitory actions of oxcarbazepine
+on voltage-gated sodium and potassium currents in differentiated
+NG108-15 neuronal cells and model neurons. *Int J Neuropsychopharmacol* 2008;11:597-610.
 
-Abstract:
+## Abstract:
 
 Oxcarbazepine (OXC), one of the newer anti-epileptic drugs, has been
 demonstrating its efficacy on wide-spectrum neuropsychiatric
@@ -14,13 +12,13 @@ disorders. However, the ionic mechanism of OXC actions in neurons
 remains incompletely understood. With the aid of patch-clamp
 technology, we first investigated the effects of OXC on ion currents
 in NG108-15 neuronal cells differentiated with cyclic AMP. We found
-OXC (0.3-30 mum) caused a reversible reduction in the amplitude of
-voltage-gated Na+ current (INa).  The IC50 value required for the
-inhibition of INa by OXC was 3.1 mum. OXC (3 mum) could shift the
+OXC (0.3-30 μM) caused a reversible reduction in the amplitude of
+voltage-gated Na+ current (INa). The IC50 value required for the
+inhibition of INa by OXC was 3.1 μM. OXC (3 μM) could shift the
 steady-state inactivation of INa to a more negative membrane potential
-by approximately -9 mV with no effect on the slope of the inactivation
+by approximately −9 mV with no effect on the slope of the inactivation
 curve, and produce a significant prolongation in the recovery of INa
-inactivation.  Additionally, OXC was effective in suppressing
+inactivation. Additionally, OXC was effective in suppressing
 persistent INa (INa(P)) elicited by long ramp pulses. The blockade of
 INa by OXC does not simply reduce current magnitude, but alters
 current kinetics. Moreover, OXC could suppress the amplitude of
@@ -34,20 +32,22 @@ potentials. Taken together, our results suggest that the synergistic
 blocking effects on INa and IK(DR) may contribute to the underlying
 mechanisms through which OXC affects neuronal function in vivo.
 
+## To run the model:
 
-To run the model:
-Expand the archive and cd into the newly created directory and run:
-xppaut neuron_oxc.ode
-then click on Initialcond -> Go
-The potential trace is shown in the lower part of Figure 9b in the paper of 
-Huang et al (2008):
+- Expand the archive and cd into the newly created directory and run:
+  `xppaut neuron_oxc.ode`
+- Then click on Initialcond -> Go
+- The potential trace is shown in the lower part of Figure 9b in the paper of Huang et al (2008):
 
-<img src="./Neuron_OXC.JPG" alt="screenshot">
+![screenshot](./Neuron_OXC.JPG)
 
-The model file was supplied by:
+## The model file was supplied by:
 
 Dr. Sheng-Nan Wu
 National Cheng Kung University Medical College
 Tainan 70101, Taiwan
 snwu@mail.ncku.edu.tw
-</pre></html>
+
+---
+
+2025-06-02: Standardized to Markdown.
